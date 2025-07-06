@@ -12,6 +12,8 @@ body {
     min-height: 100vh;
     background-size: 400% 400%;
     animation: gradientShift 15s ease infinite;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 @keyframes gradientShift {
@@ -24,6 +26,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    width: 100%;
 }
 
 /* Navigation */
@@ -327,6 +330,8 @@ footer {
 @media (max-width: 768px) {
     .container {
         padding: 0 15px;
+        max-width: 100%;
+        margin: 0;
     }
 
     .nav-links {
@@ -380,6 +385,8 @@ footer {
 @media (max-width: 480px) {
     .container {
         padding: 0 10px;
+        max-width: 100%;
+        margin: 0;
     }
 
     .hero h1 {
@@ -427,6 +434,8 @@ footer {
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 body {
