@@ -209,6 +209,16 @@ section {
     line-height: 1.4;
 }
 
+/* Contact Section */
+#contact p {
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
 /* Services Section */
 .services-grid {
     display: grid;
