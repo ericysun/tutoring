@@ -195,6 +195,20 @@ section {
     color: #666;
 }
 
+.about-content ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin: 1rem 0 1.5rem 0;
+    padding-left: 0;
+    color: #666;
+}
+
+.about-content li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
 /* Services Section */
 .services-grid {
     display: grid;
